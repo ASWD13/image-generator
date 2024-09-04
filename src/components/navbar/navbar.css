@@ -1,0 +1,15 @@
+nav {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 8px 10px rgba(255,255,255,0.3);
+}
+
+nav span {
+    background: linear-gradient(to right, #5ffff4, #a541b0,#8ced57);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    font-size: 25px;
+}
