@@ -3,7 +3,7 @@ import "./input.component.css";
 import FadeLoader from 'react-spinners/FadeLoader'; 
 
 
-const apiKey = "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"; 
+const apiKey = "API_key_here"; 
 
 const getRandomNumber = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
