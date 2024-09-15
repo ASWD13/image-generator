@@ -5,11 +5,11 @@ nav {
 }
 
 nav span {
-    background: linear-gradient(to right, #5ffff4, #a541b0,#8ced57);
+    background: linear-gradient(90deg, #00C6FF, #0072FF, #FF0080);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
 }
