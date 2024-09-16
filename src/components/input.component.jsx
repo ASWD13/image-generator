@@ -89,7 +89,7 @@ const Input = () => {
 
             <div className="result">
             {loading && (
-    <div>
+    <div className='loading'>
         <p>Generating..</p>
         <FadeLoader color="#39DFEB" loading={loading} size={55} />
     </div>
