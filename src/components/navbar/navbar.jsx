@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav class="navbar bg-body-dark">
   <div class="container-fluid">
-    <span>Doodle AI</span>
+    <span>Doodle Monster</span>
   </div>
 </nav>
   )
