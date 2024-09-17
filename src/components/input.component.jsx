@@ -72,7 +72,7 @@ const Input = () => {
             <h1 className='text-center'>
                 Get Your <br/><b>AI Generated Image</b> <br/>In Seconds
             </h1>
-
+            
             <form className="gen-form" onSubmit={(e) => e.preventDefault()}>
                 <input 
                     type="text" 
@@ -83,7 +83,7 @@ const Input = () => {
                     onChange={(e) => setPrompt(e.target.value)}
                 />
                 <button type="button" id="generate" onClick={handleGenerateClick} disabled={loading}>
-                    {loading ? "Generating.." : "Generate"}
+                    {loading ? "Generating.." : "Generate "}
                 </button>
             </form>
 
@@ -109,6 +109,7 @@ const Input = () => {
                         />
                     ))}
                 </div>
+                <p>(Click on the picture to download)</p>
             </div>
         </div>
         
