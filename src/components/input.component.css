@@ -6,7 +6,7 @@
     border-radius: 50px;
     height: 100%;
     width: 100%;
-    color: wheat;
+    color: #EAD8B1;
     overflow: visible; 
 }
 
@@ -17,7 +17,7 @@
 }
 
 .container .text-center b {
-    background: linear-gradient(45deg, #00fae9, #000cf9);
+    background: linear-gradient(45deg, #07c2c2,#00ffcc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -34,7 +34,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px solid white;
 }
 
@@ -51,13 +51,13 @@
     padding: 10px;
     border-radius: 10px;
     border: none;
-    background-color: #00dcfa;
+    background-color: #67c3fd;
     transition: 0.2s;
     width: 15%;
 }
 
 .gen-form button:hover {
-    background-color: #01aec5;
+    background-color: #2b9ce2;
 }
 
 
